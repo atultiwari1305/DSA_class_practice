@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int a[10], n, i;
+    cout<<"hello";
     cout<<"Enter the range of elements: ";
     cin>>n;
     cout<<"Enter the elements: ";
