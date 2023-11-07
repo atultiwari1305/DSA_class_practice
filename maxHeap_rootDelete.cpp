@@ -73,9 +73,14 @@ int main()
     }
     build_heap(a,n);
     cout<<"Max Heap created successfully."<<endl;
-    deleteHeap(a,n);
-    cout<<"After deleting the root, the MAX heap is: ";
+    cout<<"Max Heap: ";
     for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
+    deleteHeap(a,n);
+    cout<<endl<<"After deleting the root, the MAX heap is: ";
+    for(int i=0;i<n-1;i++)
     {
         cout<<a[i]<<" ";
     }
